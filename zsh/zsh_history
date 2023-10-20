@@ -1,0 +1,186 @@
+: 1697801655:0;vim .zshenv
+: 1697801663:0;l
+: 1697801676:0;rm .zsh_history
+: 1697801678:0;exit
+: 1697801686:0;ls
+: 1697801705:0;l
+: 1697801728:0;cp .zshenv .config/zsh/
+: 1697801730:0;ls
+: 1697801760:0;cd dotfile
+: 1697801761:0;ls
+: 1697801767:0;cd bash
+: 1697801768:0;ls
+: 1697801769:0;l
+: 1697801774:0;cd ../
+: 1697801821:0;l
+: 1697801899:0;cat .z
+: 1697802056:0;z zsh
+: 1697802057:0;ls
+: 1697802059:0;l
+: 1697802067:0;vim .zshrc
+: 1697802171:0;source .zshrc
+: 1697802176:0;l
+: 1697802180:0;vim .zshrc
+: 1697802190:0;l
+: 1697802203:0;rm "#ZSH\
+exit
+: 1697802213:0;rm "#ZSH"
+: 1697802221:0;rm -r "#ZSH"
+: 1697802222:0;ls
+: 1697802224:0;l
+: 1697802233:0;source .zshrc
+: 1697802236:0;rm -r "#ZSH"
+: 1697802237:0;l
+: 1697802245:0;cd ../
+: 1697802247:0;cd zsh
+: 1697802247:0;l
+: 1697802261:0;echo $ZSH
+: 1697802269:0;cd $ZSH
+: 1697802270:0;l
+: 1697802274:0;rm .z
+: 1697802282:0;rm .oh-my-zsh
+: 1697802289:0;cd ../
+: 1697802292:0;vim .zshrc
+: 1697802388:0;source .zshrc
+: 1697802390:0;l
+: 1697802398:0;vim .zshrc
+: 1697802408:0;source .zshrc
+: 1697802414:0;l
+: 1697802417:0;cd ../
+: 1697802418:0;l
+: 1697802422:0;rm .zjumpdata
+: 1697802425:0;cd zsh
+: 1697802431:0;cd oh-my-zsh
+: 1697802432:0;ls
+: 1697802446:0;cd cache
+: 1697802447:0;l
+: 1697802453:0;cd ~
+: 1697802460:0;l
+: 1697802466:0;rm .z
+: 1697802467:0;l
+: 1697802483:0;nvim .vimrc
+: 1697802746:0;cd .config
+: 1697802747:0;ls
+: 1697802750:0;cd nvim
+: 1697802751:0;ls
+: 1697802757:0;vim init.vim
+: 1697802771:0;cd ~
+: 1697803083:0;nvim init.vim
+: 1697803087:0;cd -
+: 1697803090:0;nvim init.vim
+: 1697803261:0;vim init.vim
+: 1697803279:0;cd ~
+: 1697803280:0;l
+: 1697803283:0;cd .vim
+: 1697803283:0;l
+: 1697803297:0;cd doc
+: 1697803300:0;l
+: 1697803304:0;cd ../
+: 1697803310:0;cd plug
+: 1697803313:0;cd plugin
+: 1697803314:0;ls
+: 1697803321:0;cat justify.vim
+: 1697803327:0;cat matchit.vim
+: 1697803334:0;rm ./*
+: 1697803340:0;cd ../
+: 1697803342:0;l
+: 1697803348:0;cd plugged
+: 1697803349:0;ls
+: 1697803354:0;cd ~
+: 1697803419:0;vim .vimrc
+: 1697803696:0;find * -type f | fzf > selected
+: 1697803699:0;vim .vimrc
+: 1697803713:0;vim $(fzf)
+: 1697803796:0;vim .vimrc
+: 1697804146:0;l
+: 1697804177:0;mv dotfile/vim/.vim .config/vim/.vim
+: 1697804676:0;ls
+: 1697804679:0;l
+: 1697804701:0;mv dotfile/vim/.vim .config/vim/.vim
+: 1697805140:0;mkdir .config/vim
+: 1697805811:0;mv dotfile/vim/.vim .config/vim/.vim
+: 1697805818:0;mv dotfile/vim/.vimrc .config/vim/.vimrc
+: 1697805819:0;l
+: 1697805826:0;rm .vim .vimrc
+: 1697805844:0;ln -s ./config/vim/.vim .vim
+: 1697805849:0;ln -s ./config/vim/.vimrc .vimrc
+: 1697805850:0;l
+: 1697805867:0;ln -s .config/vim/.vimrc .vimrc
+: 1697805870:0;rm .vim .vimrc
+: 1697805872:0;ln -s .config/vim/.vimrc .vimrc
+: 1697805876:0;ln -s .config/vim/.vim .vim
+: 1697805877:0;l
+: 1697806970:0;cd /mnt/d/me
+: 1697806971:0;l
+: 1697806982:0;mkdir blog
+: 1697807060:0;sudo snap install dart-sass
+: 1697808606:0;hugo new site quickstart
+: 1697809249:0;hugo
+: 1697809270:0;sudo apt install hugo
+: 1697809459:0;hugo new site quickstart\
+cd quickstart\
+git init\
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke\
+echo "theme = 'ananke'" >> hugo.toml\
+hugo server
+: 1697809518:0;hugo new content posts/my-first-post.md
+: 1697809569:0;ls
+: 1697809580:0;hugo new content posts/my-first-post.md
+: 1697809587:0;cd content
+: 1697809588:0;ls
+: 1697809591:0;cd ../
+: 1697809619:0;vim .config/zsh/
+: 1697809626:0;vim .config/zsh/.zshrc
+: 1697809632:0;vim ~/.config/zsh/.zshrc
+: 1697809647:0;source ~/.config/zsh/.zshrc
+: 1697809655:0;ls
+: 1697809658:0;cd ../
+: 1697809660:0;ls
+: 1697809666:0;cd quickstart
+: 1697809667:0;ls
+: 1697809679:0;cd content
+: 1697809684:0;vim ~/.config/zsh/.zshrc
+: 1697809692:0;source ~/.config/zsh/.zshrc
+: 1697809704:0;ls
+: 1697809721:0;cd ../
+: 1697809723:0;hugo server
+: 1697809747:0;hugo new content posts/my-first-post.md
+: 1697809797:0;hugo --version
+: 1697809802:0;hugo -v
+: 1697809845:0;cd ../
+: 1697809846:0;ls
+: 1697809853:0;rm -rf quickstart
+: 1697809855:0;l
+: 1697809866:0;sudo apt remove hugo
+: 1697809872:0;hugo
+: 1697809885:0;sudo snap install hugo
+: 1697810099:0;sudo snap install dart-sass
+: 1697810220:0;sudo snap install hugo
+: 1697810314:0;sudo snap install dart-sass
+: 1697810325:0;sudo snap find dart-sass
+: 1697810357:0;killall snap-store
+: 1697810378:0;sudo snap refresh snapd
+: 1697810402:0;lxd
+: 1697810420:0;snap --version
+: 1697810443:0;sudo apt update && sudo apt upgrade -y
+: 1697810551:0;snap --version
+: 1697810686:0;cd ~
+: 1697810687:0;ls
+: 1697810711:0;cd .config
+: 1697810712:0;ls
+: 1697810723:0;cd ~
+: 1697810726:0;cd dotfile
+: 1697810727:0;ls
+: 1697810736:0;rm rm ./*
+: 1697810750:0;rm -rf ./*
+: 1697810763:0;vim README
+: 1697810924:0;ls
+: 1697810927:0;cd ../
+: 1697810928:0;ls
+: 1697810934:0;cd -
+: 1697810938:0;vim README
+: 1697810969:0;cd ../
+: 1697810977:0;cd .config
+: 1697810978:0;ls
+: 1697811026:0;cp ./* ~/dotfile/
+: 1697811033:0;cp -rf ./* ~/dotfile/
